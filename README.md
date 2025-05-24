@@ -81,3 +81,48 @@ Este proyecto está bajo la Licencia MIT.
 3. ¡Guarda y haz commit!
 
 ¿Te gustaría que te ayude a subirlo a GitHub o agregar otros pasos como cómo usar UtzilCoin o un smart contract?
+
+    Escanea un código QR que contenga alguno de los siguientes textos:
+
+        AUTO123 → Auto legal
+
+        AUTO456 → Auto ilegal
+
+Puedes generar los QR en: https://www.qr-code-generator.com/
+🧪 Base de datos simulada
+
+Este MVP usa una base de datos simulada en el frontend con los siguientes autos:
+
+const autoDatabase = {
+  "AUTO123": {
+    placa: "ABC-123",
+    dueño: "Juan Pérez",
+    estado: "Legal"
+  },
+  "AUTO456": {
+    placa: "XYZ-456",
+    dueño: "María López",
+    estado: "Ilegal"
+  }
+};
+
+📌 Próximos pasos
+
+    Conexión con backend para validar autos reales
+
+    Smart contracts en Solidity para verificar legalidad en blockchain
+
+    Uso de UtzilCoin (token ERC-20)
+
+    Registro y validación de autos en blockchain
+
+🙌 Autor
+
+Desarrollado por @tobyasutzil
+Este proyecto forma parte del MVP de UtzilCar para validar ideas de legalidad descentralizada de vehículos.
+📄 Licencia
+
+Este proyecto está bajo la Licencia MIT.
+
+
+---
